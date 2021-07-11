@@ -7,8 +7,8 @@ trigger:
 - master
 
 pool:
-  agentPool: default
-  vmImage: MyLocal
+  name: 'Default'
+  vmImage: 'MyLocal'
 
 steps:
 - task: Gradle@2
